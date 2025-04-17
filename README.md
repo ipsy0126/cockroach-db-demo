@@ -1,6 +1,6 @@
 # cockroach-db-demo
 
-`make` コマンドで CockroachDB のコンテナを立ち上げます。
+`make` コマンドでシングルノードの CockroachDB のコンテナを立ち上げます。
 
 ```bash
 make up        # CockroachDB 起動
