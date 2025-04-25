@@ -60,3 +60,16 @@ M-? toggle key help • C-d erase/stop • C-c clear/cancel • M-. hide/show pr
 | M-.  | プロンプトの表示切り替え         | `Alt + .` プロンプトを隠したりできる     |
 
 ※ M- は「Metaキー」（通常は Altキー）です。C- は「Controlキー（Ctrl）」です
+
+## `demo` データベースの作成
+
+```sql
+CREATE DATABASE demo;
+USE demo;
+```
+
+see. <https://www.cockroachlabs.com/docs/v25.1/create-database.html>
+
+![create-database-synopsis](./images/create_database_synopsis.png)
+
+😁 構文定義が画像になっていてわかりやすい！
