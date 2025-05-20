@@ -73,3 +73,15 @@ see. <https://www.cockroachlabs.com/docs/v25.1/create-database.html>
 ![create-database-synopsis](./images/create_database_synopsis.png)
 
 😁 構文定義が画像になっていてわかりやすい！
+
+## テーブルの作成
+
+```sql
+CREATE TABLE users (
+                       id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+                       name STRING NOT NULL,
+                       balance DECIMAL
+);
+```
+
+
