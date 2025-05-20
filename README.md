@@ -72,7 +72,9 @@ see. <https://www.cockroachlabs.com/docs/v25.1/create-database.html>
 
 ![create-database-synopsis](./images/create_database_synopsis.png)
 
-😁 構文定義が画像になっていてわかりやすい！
+> [!NOTE]
+>
+> 構文定義が画像になっていてわかりやすい！😁
 
 ## テーブルの作成
 
